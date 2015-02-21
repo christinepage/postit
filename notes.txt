@@ -1,0 +1,11 @@
+jquery enhancements
+-------------------
+1) add edit of notes
+2) don't add a note of length 0
+3) give notes titles (make title section opaque)
+4) add ability to add image links (images that exist online somewhere)
+
+rails
+-----
+1) save notes to db 
+2) add user login and save notes by user
