@@ -1,0 +1,55 @@
+body {
+    background: orange;
+}
+
+body,
+.postitnote,
+#new-note-text {
+    font-family: Verdana,Arial,sans-serif;
+    font-size: .8em;
+}
+.postitnote {
+    white-space: pre-wrap;
+    padding: 2px 5px;
+    background: #dddddd;
+    width: 258px;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: none;
+}
+#new-note-text {
+    height: auto;
+}
+
+.postitnote,
+#new-note-text {
+    border: 4px solid #2b49a0;
+    border-radius: 7px;
+}
+
+#note-sea {
+    height: 250px;
+}
+#new-note {
+    float: left;
+}
+
+#save-session,
+#save-new {
+    font-size: 2.0em;
+    font-family: Verdana,Arial,sans-serif;;
+}
+
+#trash {
+    border: 4px solid #2b49a0;
+    border-radius: 7px;
+    float: right; width: 20%; min-height: 10em; padding: 1%;
+}
+#trash h4 { line-height: 16px; margin: 0 0 0.4em; }
+#trash h4 .ui-icon { float: left; }
+
+.ui-widget-content {
+    border: 1px solid #aaaaaa;
+    background: lightgray;
+    color: #222222;
+}
