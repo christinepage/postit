@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Postit</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'application', 'postit', "https://code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css", media: 'all', 'data-turbolinks-track' => true %>
+
+  <%= javascript_include_tag 'application', 'postit', "http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js", "https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js", "https://code.jquery.com/ui/1.11.3/jquery-ui.js", 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  
 </head>
+
 <body>
 
 <%= yield %>
